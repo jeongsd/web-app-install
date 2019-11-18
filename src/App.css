@@ -1,22 +1,32 @@
+button {
+  display: inline-block;
+  color: #fff;
+  background: #ff5a5f;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 64px;
+  margin-bottom: 24px;
+  border-radius: 2px;
+}
+button:disabled {
+  background: #e0e0e0;
+  color: grey;
+}
+
 .App {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 60px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+img {
+  margin-bottom: 30px;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.install-button {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
